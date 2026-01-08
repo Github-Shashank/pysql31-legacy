@@ -11,7 +11,7 @@ Uploaded for archival purposes
 
 # Code use at end of comment algorithm code work error 
 
-yourPath = r"E:/pysql"#r"C:/pysql3.1"
+yourPath = r"E:/pysql"#r"C:/pysql"
 default = {"path":yourPath}
 data = {"database":""}
 
