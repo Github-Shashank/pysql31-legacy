@@ -373,7 +373,7 @@ def insertData(t,l):
             # Error retreat
             insertData(table,l)
 
-def showTable(t,l):
+def showTable(t):
     if os.path.exists( "%s//%s_db//%s_tb" % (default["path"], data["database"], t ) ):
         file = open("%s//%s_db//%s_tb//table.txt" % (default["path"], data["database"], t ) , 'r' )
         dat = eval(file.readline())
@@ -389,14 +389,14 @@ def showTable(t,l):
             useDatabase(e)
             print()
             #Error retreat
-            insertData(t,l)
+            # insertData(t,l)
         else:
             print("Error! table doesn't exist")
             showTables()
             print()
             table = input("Enter your table :- ")
             # Error retreat
-            insertData(table,l)
+            # insertData(table,l)
         
 
 def openFolder(t):
